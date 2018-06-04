@@ -1,0 +1,14 @@
+server:
+  port: 9999
+
+spring:
+  devtools:
+    restart:
+      enabled: false
+  mvc:
+    favicon:
+      enabled: false
+
+logging:
+  level:
+    cn.neusoft.btlabs: debug
